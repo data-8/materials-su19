@@ -1,5 +1,4 @@
 # Data 8 Public Materials for Summer 2019
-=======
 
 This repo contains the publicly available materials that are used in the Data 8
 Foundations of Data Science course during the Spring 2019 semester.
