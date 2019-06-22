@@ -1,14 +1,14 @@
 test = {
-  'name': '4.1.1',
+  'name': 'q411',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> # Fill in the line
-          >>> #   num_avenues_away = ...
-          >>> # in the cell above. 
+          >>> # Fill in the line;
+          >>> #   num_avenues_away = ...;
+          >>> # in the cell above. ;
           >>> num_avenues_away != ...
           True
           """,
@@ -17,8 +17,8 @@ test = {
         },
         {
           'code': r"""
-          >>> # Remember to compute the absolute value of 7-10.  Traveling 
-          >>> # "-3 blocks" doesn't really make sense!
+          >>> # Remember to compute the absolute value of 7-10.  Traveling ;
+          >>> # "-3 blocks" doesn't really make sense!;
           >>> num_avenues_away != -3
           True
           """,

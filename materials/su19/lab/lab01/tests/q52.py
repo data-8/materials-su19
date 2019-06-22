@@ -1,13 +1,13 @@
 test = {
-  'name': 'q511',
+  'name': 'q52',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> round(min_height_difference, 5)
-          0.05
+          >>> secret_number
+          42
           """,
           'hidden': False,
           'locked': False
