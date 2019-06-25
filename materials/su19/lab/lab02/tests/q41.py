@@ -22,9 +22,9 @@ test = {
         },
         {
           'code': r"""
-          >>> print(really_highly_rated.sort(0).take([17]))
-          Votes  | Rating | Title | Year | Decade
-          895411 | 8.6    | Se7en | 1995 | 1990
+          >>> print(really_highly_rated.sort(0).take(17))
+          Votes   | Rating | Title | Year  | Decade
+          895,411 | 8.6    | Se7en | 1,995 | 1,990
           """,
           'hidden': False,
           'locked': False
