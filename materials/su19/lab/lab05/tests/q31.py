@@ -6,18 +6,22 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> # Warning: Charts will be displayed while running this test;
-          >>> round(float(compute_statistics(full_data)[0]), 2) == 26.54
-          True<Figure size 432x288 with 1 Axes><Figure size 432x288 with 1 Axes>
+          >>> stats = compute_statistics(full_data);
+          >>> plt.close();
+          >>> plt.close();
+          >>> round(float(stats[0]), 2) == 26.54
+          True
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> # Warning: Charts will be displayed while running this test;
-          >>> round(float(compute_statistics(full_data)[1]), 2) == 4269775.77
-          True<Figure size 432x288 with 1 Axes><Figure size 432x288 with 1 Axes>
+          >>> stats = compute_statistics(full_data);
+          >>> plt.close();
+          >>> plt.close();
+          >>> round(float(stats[1]), 2) == 4269775.77
+          True
           """,
           'hidden': False,
           'locked': False
