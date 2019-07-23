@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> round(observed_HERS_test_statistic, 4)
-          0.0026
+          >>> np.round(observed_HERS_test_statistic, 4)
+          0.0025999999999999999
           """,
           'hidden': False,
           'locked': False
