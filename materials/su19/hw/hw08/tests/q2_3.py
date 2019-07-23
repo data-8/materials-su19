@@ -7,8 +7,8 @@ test = {
         {
           'code': r"""
           >>> np.random.seed(49);
-          >>> simulate_one_HERS_statistic()
-          0.006965009902857672
+          >>> np.isclose(simulate_one_HERS_statistic(), 0.006965009902857672)
+          True
           """,
           'hidden': False,
           'locked': False
