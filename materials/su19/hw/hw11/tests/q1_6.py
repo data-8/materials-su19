@@ -6,17 +6,9 @@ test = {
       'cases': [
         {
           'code': r"""
+          >>> # Make sure regression_changes is a numpy array with 3 items!;
           >>> len(regression_changes) == 3
           True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> # Make sure regression_changes is an array;
-          >>> type(regression_changes)
-          numpy.ndarray
           """,
           'hidden': False,
           'locked': False

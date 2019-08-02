@@ -8,6 +8,7 @@ test = {
           'code': r"""
           >>> # Correlation is a number between -1 and 1;
           >>> -1 <= r <= 1
+          True
           """,
           'hidden': False,
           'locked': False

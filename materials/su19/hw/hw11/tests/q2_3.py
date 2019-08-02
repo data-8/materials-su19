@@ -7,6 +7,7 @@ test = {
         {
           'code': r"""
           >>> 0 < eth_predictor(10) < 100
+          True
           """,
           'hidden': False,
           'locked': False
