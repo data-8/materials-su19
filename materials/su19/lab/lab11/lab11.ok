@@ -1,0 +1,15 @@
+{
+  "name": "The Age of the Universe",
+  "endpoint": "cal/data8/su19/lab11",
+  "src": [
+    "lab11.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
